@@ -9,7 +9,7 @@ or
 ```bash 
 docker run hello-world
 ```
-Afterwards clone your CS 225 directory to the same directory as the Dockerfile, with the directory name cs225.
+Afterwards clone your CS 225 repository to the same directory as the Dockerfile, with the directory name cs225.
 
 Now you can run
 ```bash
