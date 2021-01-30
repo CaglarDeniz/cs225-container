@@ -25,7 +25,7 @@ COPY ./cs225/ /cs225
 
 WORKDIR /cs225
 
-CMD DEBIAN_FRONTEND="noninteractive" apt-get install -y clang &&   tmux  
+CMD DEBIAN_FRONTEND="noninteractive" apt-get install -y clang && bash
 
 
 
