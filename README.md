@@ -1,7 +1,7 @@
 # cs225-container
 This is a container built to locally run and test mps and labs
 for UIUC's CS 225 Sp21
-
+## For UNIX-based systems 
 Before building and running check if docker is installed by running 
 ```bash
 docker -v
