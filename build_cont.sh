@@ -11,7 +11,7 @@ fi
 
 sudo systemctl start docker  
 
-docker volume create 225-vol 
+#docker volume create 225-vol 
 
 docker build -t 225-container . 
 

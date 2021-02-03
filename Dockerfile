@@ -19,9 +19,9 @@ RUN echo alias nv=nvim >> ~/.bashrc
 
 #USER cs_student
 
-VOLUME /cs225 
+#VOLUME /cs225 
 
-COPY ./cs225/ /cs225 
+#COPY ./cs225/ /cs225 
 
 WORKDIR /cs225
 
