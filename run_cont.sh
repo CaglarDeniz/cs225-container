@@ -4,4 +4,5 @@ if [ "$EUID" -ne 0 ]
 	exit
 fi 
 HOST_DIRECTORY=$(pwd)
+sudo systemctl start docker 
 docker run --rm -it -v $HOST_DIRECTORY/cs225:/cs225 225-container
