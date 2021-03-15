@@ -23,6 +23,10 @@ RUN echo alias nv=nvim >> ~/.bashrc
 
 #COPY ./cs225/ /cs225 
 
+COPY init.txt /root/.config/nvim/init.vim 
+
+COPY vimrc.txt /root/.vimrc
+
 WORKDIR /cs225
 
 CMD DEBIAN_FRONTEND="noninteractive" apt-get install -y clang && bash
